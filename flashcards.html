@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=500, user-scalable=no">
 <html>
 <head>
-    <title>flashcards</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>flashcards</title>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
 	<link rel='stylesheet' type='text/css' href='flashcards.css' />
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 	<script type='text/javascript' src='flashcards.js'></script>
 </head>
 <body>
-	<p><textarea id='question' cols='40' rows='1' readonly='readonly'></textarea></p>
-	<p><input id='answer' type='text' size='40'><input id='done' type='submit' value='Submit'></p>
-	<p><textarea id='response' cols='40' rows='3' readonly='readonly'></textarea></p>
-	</p>
+	<div class="container">
+		<p id='question'></p>
+		<p><input id='answer' type='text' style="width:100%"></p>
+		<p class='text-right'><input id='done' type='submit' value='Submit'></p>
+		<p id='response'></p>
+	</div>
 </body>
 </html>
