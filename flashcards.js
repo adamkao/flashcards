@@ -12,7 +12,7 @@ var flashcards = [
 [ "enamorado", "in love", 0, 0 ],
 [ "soltero", "unmarried", 0, 0 ],
 [ "vacio", "empty", 0, 0 ],
-[ "la verguenza", "shame", 0, 0 ],
+[ "la vergüenza", "shame", 0, 0 ],
 [ "avergonzado", "ashamed", 0, 0 ],
 [ "el embarazo", "pregnancy", 0, 0 ],
 [ "embarazada", "pregnant", 0, 0 ],
