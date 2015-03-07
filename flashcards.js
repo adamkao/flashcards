@@ -11,7 +11,7 @@ var flashcards = [
 [ "la solterona", "spinster, old maid", 0, 0 ],
 [ "enamorado", "in love", 0, 0 ],
 [ "soltero", "unmarried", 0, 0 ],
-[ "vacio", "empty", 0, 0 ],
+[ "vacío", "empty", 0, 0 ],
 [ "la vergüenza", "shame", 0, 0 ],
 [ "avergonzado", "ashamed", 0, 0 ],
 [ "el embarazo", "pregnancy", 0, 0 ],
